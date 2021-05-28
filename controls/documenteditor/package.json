@@ -1,5 +1,5 @@
 {
-	"name": "@syncfusion/ej2-documenteditor",
+	"name": "@hinhle/ej2-documenteditor",
 	"version": "19.1.64",
 	"description": "Feature-rich document editor control with built-in support for context menu, options pane and dialogs.",
 	"keywords": [
@@ -59,7 +59,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/syncfusion/ej2-javascript-ui-controls.git"
+		"url": "https://github.com/hinhle/ej2-javascript-ui-controls.git"
 	},
-	"typings": "index.d.ts"
+	"typings": "index.d.ts",
+	"publishConfig": {
+		"registry":"https://npm.pkg.github.com"
+	  }
 }
