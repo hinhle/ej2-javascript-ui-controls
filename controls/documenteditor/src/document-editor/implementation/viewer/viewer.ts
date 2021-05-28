@@ -3159,7 +3159,7 @@ export class DocumentHelper {
      * 
      * @returns {void}
      */
-    private unWireEvent(): void {
+    public unWireEvent(): void {
         this.viewerContainer.removeEventListener('scroll', this.scrollHandler);
         this.viewerContainer.removeEventListener('mousedown', this.onMouseDownInternal);
         this.viewerContainer.removeEventListener('mousemove', this.onMouseMoveInternal);
