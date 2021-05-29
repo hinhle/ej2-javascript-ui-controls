@@ -19,13 +19,8 @@
     "moduleResolution": "node",
     "suppressImplicitAnyIndexErrors": true,
     "lib": ["es5", "es2015.promise", "dom"],
-    "types": ["jasmine","jasmine-ajax","requirejs","chai"]
-  },
-  "paths": {
-    "@hinhle/documenteditor/*": [
-      "../../@hinhle/documenteditor/*"
-    ],
-
+    "types": ["jasmine","jasmine-ajax","requirejs","chai"],
+    "outDir": "./dist",
   },
   "exclude": [
     "node_modules",
